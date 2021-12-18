@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/style.css" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>Tienda - Inter Ibiza C.D.</title>
         <!-- FIREBASE SCRIPTS -->
@@ -62,36 +62,37 @@
 
   <div id="cuerpo" style="display: none;">
 
-  <!-- HEADER -->
-  <header class="header">
-    <a href="https://www.facebook.com/profile.php?id=100063573734413" target="_blank" class="redes">
-      <img src="img/facebook-AMARILLO.png" alt="Facebook" height="30">
-    </a>
-
-    <a href="https://www.instagram.com/interibiza/" target="_blank" class="redes">
-      <img src="img/instagram-AMARILLO.png" alt="Instagram" height="30">
-    </a>
-
-    <a href="https://twitter.com/IbizaInter?s=20" target="_blank" class="redes">
-      <img src="img/twitter-AMARILLO.png" alt="Twitter" height="30">
-    </a>
-
-    <a href="https://www.youtube.com/channel/UCXF9_makr9jYH7hY5ULiBWg" target="_blank" class="redes">
-      <img src="img/youtube-AMARILLO.png" alt="Youtube" height="30">
-    </a>
-  </header>
-  <!-- Fin de Header -->
-
+  
   <!-- Navbar -->
-  <section class="section-1">
-    <div class="escudo-container">
-      <div class="tituloAparece" style="display: none;">INTER</div>
-      <a href="index.html"><img src="img/inter-escudo-sinfondo.png" alt="Logo Inter Ibiza" height="240"
-          class="escudo"></a>
-      <div class="tituloAparece" style="display: none;">IBIZA</div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/Lemur-1.png" alt="Logo de Lemur Media Studio"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <span class="navbar-text mx-md-5">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram-square mx-2"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </span>
+        <span class="navbar-text mx-md-5">
+          <a href=""><i class="fas fa-shopping-cart"></i></a>
+        </span>
+      </div>
     </div>
-    <h1 class="text-center p-5">TIENDA OFICIAL</h1>
-  </section>
+  </nav>
   <!-- Fin Navbar -->
 
     <div id="cardp" class="mt-3 row row-cols-1 row-cols-md-3 g-4 mx-auto d-flex justify-content-center">
@@ -102,7 +103,7 @@
     
                                                                                                        
   
-  </div>
+
 
         <!-- FOOTER -->
         <footer id="footer">
@@ -112,13 +113,13 @@
               <div class="row">
       
                 <div class="col-lg-3 col-md-6 footer-contact">
-                  <h3 id="footer-title">INTER IBIZA C.D.</h3>
+                  <h3 id="footer-title">Lemur Media Studio</h3>
                   <p>
-                    Estadio Can Cantó <br>
-                    Ibiza, Formentera<br>
-                    España<br><br>
+                    Aurikelstraße 17 <br>
+                    Wolfratshausen, Baviera<br>
+                    Alemania<br><br>
                     <strong>Teléfono:</strong> 3055 3465<br>
-                    <strong>Email:</strong> info@interibiza.es<br>
+                    <strong>Email:</strong> info@lemurmediastudio.com<br>
                   </p>
                 </div>
       
@@ -142,39 +143,23 @@
                     <li><i class="bx bx-chevron-right"></i> <a href="#">Plantilla</a></li>
                   </ul>
                 </div>
-      
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                   <h4>Síguenos en nuestras redes sociales</h4>
-                  <a href="https://www.facebook.com/profile.php?id=100063573734413" target="_blank" class="redes">
-                    <img src="img/facebook-AMARILLO.png" alt="Facebook" height="30">
-                  </a>
-              
-                  <a href="https://www.instagram.com/interibiza/" target="_blank" class="redes">
-                    <img src="img/instagram-AMARILLO.png" alt="Instagram" height="30">
-                  </a>
-              
-                  <a href="https://twitter.com/IbizaInter?s=20" target="_blank" class="redes">
-                    <img src="img/twitter-AMARILLO.png" alt="Twitter" height="30">
-                  </a>
-              
-                  <a href="https://www.youtube.com/channel/UCXF9_makr9jYH7hY5ULiBWg" target="_blank" class="redes">
-                    <img src="img/youtube-AMARILLO.png" alt="Youtube" height="30">
-                  </a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-instagram-square"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
                 </div>
-      
               </div>
             </div>
           </div>
-      
           <div class="container">
-      
-            <div class="copyright-wrap d-md-flex py-4 justify-content-center">
-              <div class="mr-md-auto text-center">
+            <div class="copyright-wrap d-md-flex py-4">
+              <div class="mr-md-auto">
                 <div class="copyright">
-                  &copy; Copyright <strong><span>Inter Ibiza C.D.</span></strong>. All Rights Reserved
+                  &copy; Copyright <strong><span>Lemur Media Studio</span></strong>. All Rights Reserved
                 </div>
                 <div class="credits">
-                  Designed by Martín del Rosario
+                  Designed and developed by Lemur Media Studio
                 </div>
               </div>
             </div>
@@ -183,6 +168,7 @@
         </footer>
 
       </div>
+    </div>
  
 
     

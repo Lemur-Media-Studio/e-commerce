@@ -1,0 +1,27 @@
+.navbar{
+    background-color: $principal !important;
+}
+
+.nav-link{
+    color: $texto !important;
+    font-size: 20px;
+    margin-right: 30px !important;
+}
+
+.nav-link:hover{
+    color: $titulos !important;
+}
+
+.fab{
+    color: $texto !important;
+    font-size: 35px !important;
+}
+
+.fas{
+    color: $principal !important;
+    font-size: 70px !important;
+    border: 5px solid $texto;
+    border-radius: 150px;
+    padding: 25px 22px 25px 22px;
+    background-color: $texto !important;
+}
