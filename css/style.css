@@ -176,4 +176,27 @@
   color: #E04E0B !important;
 }
 
+.body-logueo {
+  background-color: #a3ccdb;
+}
+
+.logueo-ecomm {
+  background-color: white;
+  padding: 35px;
+  margin: 500px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-logueo {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#d0e4eb));
+  background: -moz-linear-gradient(center top, #fff, #d0e4eb);
+  background: -o-linear-gradient(center top, #fff, #d0e4eb);
+  background: -ms-linear-gradient(center top, #fff, #d0e4eb);
+  background: linear-gradient(center top, #fff, #d0e4eb);
+  border: transparent !important;
+  background-color: #d0e4eb !important;
+}
+
 /*# sourceMappingURL=style.css.map */
