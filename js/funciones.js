@@ -7,7 +7,7 @@ function productosUIjQuery(productos, id){
                         <div class="card-body">
                           <h5 class="card-title">${(producto.tipo)}</h5>
                           <p class="card-text">${('$ ' + producto.valor*producto.iva)}</p>
-                          <a href="#" id='${producto.id}' class="btn btn-primary btn-compra">Comprar</a>
+                          <a href="#" id='${producto.id}' class="btn btn-dark btn-compra">Comprar</a>
                         </div>
                       </div>`)
     }

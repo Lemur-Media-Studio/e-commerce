@@ -21,7 +21,7 @@ const data = db.collection("Productos").get().then(snapshot => {
                         <div class="card-body">
                           <h5 class="card-title">${d.name}</h5>
                           <p class="card-text">${d.producto}</p>
-                          <a href="#" id='${d.id}' class="btn btn-primary btn-compra">Comprar</a>
+                          <a href="#" id='${d.id}' class="btn btn-dark btn-compra">Comprar</a>
                         </div>
                       </div>`
         
